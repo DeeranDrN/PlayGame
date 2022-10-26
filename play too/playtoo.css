@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed','Londrina shadow' , sans-serif;
+}
+.banner1{
+    background-color: rgb(17,25,36);
+    object-fit: contain;
+    background-image: url('bg_line.png');
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+/* /////  close icon /////// */
+.close{
+    background-color: rgb(17,25,36);
+    height: 28px;
+    width: 100%;
+}
+.icon{
+    width: 98%;
+    margin: 0 auto;
+    
+}
+/* ///////// nav bar/////// */
+.menu{
+    color: #fff !important;
+    margin-left: 20px;
+    font-size: 16px;
+    font-style: bold !important;
+    
+ } 
+
+.form{
+    
+    background-color: rgb(29,28,28);
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 40px;
+    width: 219px;
+    padding-top: 3px;
+ }
+ .formimg{
+    display: flex;
+    height: 40px;
+    width: 40px;
+ }
+ .cash{
+   padding-top: 4px;
+ }
+ /* /////////// */
+   
+
+ /* /////////// game icon//////////// */
+
+ .crown {
+    position: absolute !important;
+    width: 40px;
+    height: 40px;
+    right: 185px;
+    top: 103px;
+  
+  }
+  
+  .gamer1 {
+    position: absolute !important;
+    width: 126px;
+    height: 83px;
+    right: 104px;
+    top: 151px;
+  
+  }
+  
+  .gamer2 {
+    position: absolute !important;
+    width: 126px;
+    height: 83px;
+    right: 33px;
+    top: 227px;
+
+  }
+  
+  .gamer3 {
+    position: absolute !important;
+    width: 126px;
+    height: 80px;
+    right: 10px;
+    top: 332px;
+  
+  }
+  
+  .gamer4 {
+    position: absolute !important;
+    width: 123px;
+    height: 83px;
+    right: 41px;
+    top: 420px;
+  }
+  
+  .gamer5 {
+    position: absolute !important;
+    width: 126px;
+    height: 82px;
+    right: 98px;
+    top: 502px;
+    
+  }
+
+  .all {
+    position: absolute !important;
+    width: 50px;
+    height: 50px;
+    top: 571px;
+    right: 271px;
+  }
+  
+ 
+
+ @media only screen and (max-width:575.98px){
+    .game{
+       display: none;
+    }
+ }
+
+
+ @media(max-width: 760px){
+   .game{
+       position: relative;
+       top: 20px;
+   }
+}
+
+
+
+
+ 
+ /* ////////// text cnt/////////// */
+ @media only screen and (max-width:575.98px){
+    .subtxt1{
+       float: right;
+       justify-content: center;
+    }
+ }
+/* /////  game no 1to 5  //////// */
+.myimg1{
+    bottom: -71px;
+    position: relative;
+    left: -91px;
+}
+.myimg2{
+    bottom: -71px;
+    position: relative;
+    left: -30px;
+}
+
+.myimg3{
+    bottom: -61px;
+    position: relative;
+    left: -10px;
+}
+
+.myimg4{
+    bottom: -61px;
+    position: relative;
+    left: 10px;
+}
+.myimg5{
+    bottom: -61px;
+    position: relative;
+    left: 20px;
+}
+
+@media only screen and (max-width:575.98px){
+    .myimg1{
+       position: relative;
+       top: -100px;
+       left: 34px;
+    }
+ }
+@media only screen and (max-width:575.98px){
+    .myimg2{
+      position: relative;
+      top: -85px;
+      left: 55px;
+    }
+ }
+ @media only screen and (max-width:575.98px){
+    .myimg3{
+      position: relative;
+      top: -85px;
+      left: 55px;
+    }
+ }
+ @media only screen and (max-width:575.98px){
+    .myimg4{
+      position: relative;
+      top: -85px;
+      left: 55px;
+    }
+ }
+ @media only screen and (max-width:575.98px){
+    .myimg5{
+      position: relative;
+      top: -85px;
+      left: 55px;
+    }
+ }
+ 
+ /* ///////////////////// card/////////////////////////////////// */
+ 
+/* ///////////////////////////////// */
+.corner{
+   position:absolute; top: 1px;left: 1px;
+}
+
+.card{
+   background-color: rgb(41 53 68) !important;
+   
+   height: 330px !important;
+              margin: 10px;
+              height: 102%;
+              border-radius: 12px;
+            }
+            
+              
+         
+
+.hd1{
+   color: #fff;
+   font-size: 18px;
+}
+.hd2{
+   color: #fff;
+   text-align: center;
+   font-size: 13px;
+}
+.hd3{
+   color: green;
+
+}
+
+@media(max-width: 767px){
+   .card{
+       width: 100% !important;
+       margin-bottom: 30px;
+   }
+}
+@media(max-width: 574px){
+   .card{
+      width: 100%;
+       margin-left: 7px;
+       align-items: center !important;
+   }
+}
+/* /////////   banner 4/////////// */
+
+
+.banner4{
+   width: 100%;
+  height: 509px;
+   background-image: url('Group.jpg');
+   object-fit: contain;
+}
+@media only screen and (max-width:575.98px){
+   .banner4{
+      width: 100%;
+      background-image: none;
+      background-color: rgb(17,25,36);  
+      background-image: url('bg_line.png');
+      position: relative;
+      object-fit: contain;
+   }
+}
+.ctd{
+   padding-top: 55px;
+}
+
+.lsthd{
+   padding-top: 100px;
+   color: #fff;
+   display: flex;
+}
+/* /////////////  3img /////////////// */
+.thimg{
+border: 20px solid rgb(76, 91, 111);
+border-radius: 49px;
+width: 300px;
+}
+
+.hdtxt{
+   font-size: 16px;
+   color: #fff;
+   
+}
+.hdtxt1{
+   margin-left: 32px;
+
+}
+ 
+
+
+
+/* ///////////////  footer     /////////////////// */
+.footer{
+   background-color:rgb(47,53,63);
+   
+}
+
+
+ul{
+   list-style: none;
+
+}
+.footer-col{
+   width: 65%;
+   padding: 0 15px;
+
+}
+.row-foot{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .footer-col ul li:not(:last-child){
+   margin-bottom: 0px;
+ }
+ .footer-col ul li a{
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 17px;
+   color: #ffff;
+ }
+ .footer-col h4{
+   color: #ffff;
+}
+.ban{
+   padding-top: 20px;
+} 
+
+@media(max-width: 767px){
+   .footer-col{
+       width: 50%;
+       margin-bottom: 30px;
+   }
+ }
+ @media(max-width: 574px){
+   .footer-col{
+       width: 100%;
+       text-align: center;
+       
+       
+   
+   }
+ }
+
+ @media(max-width: 574px){
+   .s{
+       width: 100%;
+       text-align: center;
+       
+       
+   
+   }
+ }
+
+
+
+
+
+
+/* //////////// txt style color   ///////////////////// */
+.center{
+   color: #fff;
+}
+
+.mytxtt{
+   font-family: 'Londrina Shadow', cursive;
+}
+
+.green{
+   color: rgb(9, 209, 9);
+}
+.center1{
+   color: rgb(158, 3, 161);
+}
